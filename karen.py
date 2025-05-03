@@ -74,11 +74,11 @@ def main():
 
         if user_input == "self destruct":
             print(f"{CYAN}Karen: {response}{RESET}")
-            print()  # Add a blank line for spacing
+            print("")  # Add a blank line for spacing
             time.sleep(1)
             matrix_effect()
             print("Good Bye..", end="", flush=True)
-            print()  # Add a blank line for spacing
+            print("")  # Add a blank line for spacing
             try:
                 while True:
                     sys.stdout.write('\u2588')  # █ flashing block
@@ -91,6 +91,6 @@ def main():
                 sys.exit(0)
         else:
             print(f"{CYAN}Karen: {response}{RESET}")
-
+            print("")  # Add a blank line for spacing
 if __name__ == "__main__":
     main()
